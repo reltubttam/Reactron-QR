@@ -1,0 +1,40 @@
+{
+  "name": "qr",
+  "version": "0.1.0",
+  "main": "scripts/electron-starter.js",
+  "homepage": "./",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jsqr": "^1.1.1",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-qr-svg": "^2.1.0"
+  },
+  "scripts": {
+    "react:start:dev": "react-scripts start",
+    "react:build": "react-scripts build",
+    "react:test": "react-scripts test --env=jsdom",
+    "react:eject": "react-scripts eject",
+    "electron:start:dev": "electron scripts/electron-starter development",
+    "electron:build:mac": "electron-packager . --overwrite --platform=darwin",
+    "electron:build:win": "electron-packager . --overwrite --platform=win32",
+    "start:dev": "node scripts/orchestration-dev",
+    "start": "electron .",
+    "build": "npm run react:build && npm run electron:build:mac && npm run electron:build:win"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^12.2.0",
+    "react-scripts": "^2.0.5"
+  }
+}
