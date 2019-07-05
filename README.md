@@ -6,4 +6,4 @@ Starts a hot reloading react server then starts a development electron app point
 
 ### build production package
 Will create flat files from react then packages these inside electron with no external dependencies.  Will create builds for mac & windows
-`npm run build`
+`npm run build` followed by `npm start`
