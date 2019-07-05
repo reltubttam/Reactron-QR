@@ -2,7 +2,7 @@
   "name": "qr",
   "version": "0.1.0",
   "main": "scripts/electron-starter.js",
-  "homepage": "./",
+  "homepage": "http://localhost:3000",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jsqr": "^1.1.1",
