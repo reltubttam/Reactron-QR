@@ -34,7 +34,7 @@
   ],
   "devDependencies": {
     "electron": "^1.8.8",
-    "electron-packager": "^12.2.0",
+    "electron-packager": "^17.1.1",
     "react-scripts": "^3.0.1"
   }
 }
